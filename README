@@ -1,0 +1,14 @@
+Implementation of pagerank algorithm in multithread enviroment.
+https://en.wikipedia.org/wiki/PageRank
+
+In a graph, based on the posibillity to move from node A to node B, a pagerank posibillity is calculated.
+This, indicates how important is the node.
+Nodes with high value is more possible to be visited, so they are more important.
+
+It's a way to sort pages in the web. Google used to use this algorithm to sort pages. 
+
+----------------------------------------
+Compile : Makefile
+
+----------------------------------------
+Run an example : ./pagerank 8846 8846.txt pos8846.txt
